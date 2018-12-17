@@ -1,0 +1,36 @@
+{
+  "name": "manoranjan",
+  "version": "1.0.0",
+  "description": "The app allows you to view most popular entertainment content (Movies or Tv) on its web-based interface.",
+  "main": "index.js",
+  "repository": " https://gauravabbhi@bitbucket.org/gauravabbhi/manoranjan.git",
+  "author": "Gaurav Abbhi",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "format": "prettier --write \"./pages/**/*.{js,jsx,css,json} \" \"./components/**/*.{js,jsx,css,json} \" \"./src/**/*.{js,jsx,css,json} \" ",
+    "lint": "eslint  \"**/*.{js,jsx}\"",
+    "lint-fix": "eslint \"**/*.{js,jsx}\" --fix"
+  },
+  "dependencies": {
+    "@material-ui/core": "^3.6.2",
+    "@material-ui/icons": "^3.0.1",
+    "jss": "^9.8.7",
+    "next": "^7.0.2",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-jss": "^8.6.1"
+  },
+  "devDependencies": {
+    "eslint": "5.3.0",
+    "eslint-config-airbnb": "17.1.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-import": "2.14.0",
+    "eslint-plugin-jsx-a11y": "6.1.1",
+    "eslint-plugin-prettier": "^3.0.0",
+    "eslint-plugin-react": "7.11.0",
+    "prettier": "^1.15.3"
+  }
+}
